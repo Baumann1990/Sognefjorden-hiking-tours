@@ -3,7 +3,7 @@
   "configurations": [
     {
       "name": "hoyanger-hiking-tours",
-      "runtimeExecutable": "node",
+      "runtimeExecutable": "/usr/local/bin/node",
       "runtimeArgs": ["serve.js"],
       "port": 4321
     }

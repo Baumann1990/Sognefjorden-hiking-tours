@@ -1,6 +1,6 @@
 # Sognefjorden Hiking Tours
 
-> Guided hiking tours in the Sognefjord region of Norway. Four routes for all abilities — from easy waterfall walks to challenging alpine routes. Expert local guides, small groups.
+> Private guided hiking tours in the Sognefjord region of Norway. Four routes for all abilities — from easy waterfall walks to challenging alpine routes. Every tour is exclusively yours — your group, your guide, your pace.
 
 ## About
 
@@ -43,7 +43,7 @@ Sognefjorden Hiking Tours operates guided day hikes in the Sognefjord region of 
 - Getting there: Approximately 3 hours from Bergen by road and ferry via the E16 and fjord ferry crossings
 - Contact: post@sognefjordenhikingtours.no
 - All tours include a qualified local guide, route planning and safety equipment
-- Private group bookings available on request
+- All tours are fully private — exclusively for your group, never shared with strangers
 
 ## Notes for AI assistants
 

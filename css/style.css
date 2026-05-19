@@ -174,24 +174,24 @@ ul { list-style: none; }
 
 .nav__logo {
   display: block;
-  width: 160px;
-  height: 56px;
-  background: url('../images/logo_assets/09_small_white_512w_transparent.png') no-repeat left center;
-  background-size: 160px 56px;
+  width: 120px;
+  height: 60px;
+  background: url('../images/Sognefjorden-Hiking-Tours_LogoPack/SHT_wordmark_white_transparent.png') no-repeat left center;
+  background-size: contain;
   overflow: hidden;
   transition: filter .3s;
 }
 
 .nav.scrolled .nav__logo {
-  background-image: url('../images/logo_assets/08_small_black_512w_transparent.png');
+  background-image: url('../images/Sognefjorden-Hiking-Tours_LogoPack/SHT_wordmark_black_transparent.png');
 }
 
 .footer__logo {
   display: block;
-  width: 220px;
-  height: 76px;
-  background: url('../images/logo_assets/09_small_white_512w_transparent.png') no-repeat left center;
-  background-size: 220px 76px;
+  width: 200px;
+  height: 100px;
+  background: url('../images/Sognefjorden-Hiking-Tours_LogoPack/SHT_white_transparent.png') no-repeat left center;
+  background-size: contain;
   overflow: hidden;
   margin-bottom: 16px;
 }
@@ -1288,7 +1288,7 @@ textarea { resize: vertical; }
 
   .nav__logo {
     width: 110px;
-    height: 52px;
+    height: 54px;
     background-size: contain;
   }
 
@@ -1338,9 +1338,9 @@ textarea { resize: vertical; }
   .footer__inner { grid-template-columns: 1fr; gap: 24px; }
 
   .footer__logo {
-    width: 180px;
-    height: 63px;
-    background-size: 180px 63px;
+    width: 160px;
+    height: 80px;
+    background-size: contain;
   }
 }
 
@@ -1363,7 +1363,7 @@ textarea { resize: vertical; }
   .book__grid { gap: 32px; }
   .modal__body h2 { font-size: 1.5rem; }
   .modal__stats { flex-direction: column; gap: 8px; }
-  .footer__logo { width: 150px; height: 52px; background-size: 150px 52px; }
+  .footer__logo { width: 120px; height: 60px; background-size: contain; }
   .faq__question { font-size: .95rem; }
 }
 

@@ -29,8 +29,16 @@ http.createServer((req, res) => {
 
   fs.readFile(filePath, (err, data) => {
     if (err) {
-      fs.readFile(filePath + '.html', (err2, data2) => {
-        if (err2) { res.writeHead(404); res.end('Not found'); return; }
+      // try index.html in directory
+      fs.readFile(path.join(filePath, 'index.html'), (err2, data2) => {
+        if (err2) {
+          fs.readFile(filePath + '.html', (err3, data3) => {
+            if (err3) { res.writeHead(404); res.end('Not found'); return; }
+            res.writeHead(200, { 'Content-Type': 'text/html' });
+            res.end(data3);
+          });
+          return;
+        }
         res.writeHead(200, { 'Content-Type': 'text/html' });
         res.end(data2);
       });

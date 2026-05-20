@@ -188,8 +188,8 @@ ul { list-style: none; }
 
 .footer__logo {
   display: block;
-  width: 162px;
-  height: 108px;
+  width: 300px;
+  height: 200px;
   background: url('../images/logo_assets/SHTlogo.png') no-repeat left center;
   background-size: contain;
   overflow: hidden;
@@ -1338,8 +1338,8 @@ textarea { resize: vertical; }
   .footer__inner { grid-template-columns: 1fr; gap: 24px; }
 
   .footer__logo {
-    width: 160px;
-    height: 80px;
+    width: 270px;
+    height: 180px;
     background-size: contain;
   }
 }
@@ -1363,7 +1363,7 @@ textarea { resize: vertical; }
   .book__grid { gap: 32px; }
   .modal__body h2 { font-size: 1.5rem; }
   .modal__stats { flex-direction: column; gap: 8px; }
-  .footer__logo { width: 120px; height: 60px; background-size: contain; }
+  .footer__logo { width: 240px; height: 160px; background-size: contain; }
   .faq__question { font-size: .95rem; }
 }
 

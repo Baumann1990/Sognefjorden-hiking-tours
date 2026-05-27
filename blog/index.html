@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', { 'analytics_storage': 'denied', 'ad_storage': 'denied', 'wait_for_update': 500 });
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Sognefjord Hiking Guides & Tips | Sognefjorden Hiking Tours</title>
+  <meta name="description" content="Guides, trail tips and practical advice for hiking in the Sognefjord region of Norway. Written by local guides based in Høyanger." />
+  <link rel="canonical" href="https://www.sognefjordenhikingtours.no/blog/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:site_name"   content="Sognefjorden Hiking Tours" />
+  <meta property="og:url"         content="https://www.sognefjordenhikingtours.no/blog/" />
+  <meta property="og:title"       content="Blog — Sognefjord Hiking Guides & Tips" />
+  <meta property="og:description" content="Guides, trail tips and practical advice for hiking in the Sognefjord region of Norway." />
+  <meta property="og:image"       content="https://www.sognefjordenhikingtours.no/images/logo_assets/12_social_card_1200x630.png" />
+  <meta property="og:locale"      content="en_GB" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Blog",
+        "name": "Sognefjorden Hiking Tours Blog",
+        "url": "https://www.sognefjordenhikingtours.no/blog/",
+        "description": "Guides, trail tips and practical advice for hiking in the Sognefjord region of Norway.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Sognefjorden Hiking Tours",
+          "url": "https://www.sognefjordenhikingtours.no"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sognefjordenhikingtours.no/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog" }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="icon" href="../images/logo_assets/11_favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="../images/logo_assets/10_favicon_256.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+
+  <style>
+    .blog-index { padding: 72px 0 100px; }
+    .blog-index__header { max-width: 740px; margin: 0 auto 56px; }
+    .blog-index__header .section-title { margin-bottom: 12px; }
+    .blog-index__header p { color: var(--text-muted); font-size: 1.05rem; line-height: 1.7; }
+
+    .blog-grid { max-width: 740px; margin: 0 auto; display: flex; flex-direction: column; gap: 56px; }
+
+    .blog-card { display: grid; grid-template-columns: 260px 1fr; gap: 32px; align-items: start; text-decoration: none; color: inherit; }
+    .blog-card:hover .blog-card__title { color: var(--green-mid); }
+    .blog-card__img { width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: var(--radius); display: block; transition: opacity .2s; }
+    .blog-card:hover .blog-card__img { opacity: .9; }
+    .blog-card__date { font-size: .8rem; color: var(--text-muted); margin-bottom: 10px; text-transform: uppercase; letter-spacing: .06em; }
+    .blog-card__title { font-family: var(--font-serif); font-size: 1.35rem; color: var(--green-deep); margin-bottom: 12px; line-height: 1.3; transition: color .2s; }
+    .blog-card__excerpt { color: var(--text-muted); line-height: 1.7; font-size: .95rem; margin-bottom: 14px; }
+    .blog-card__read-more { color: var(--green-mid); font-size: .875rem; font-weight: 500; }
+
+    @media (max-width: 640px) {
+      .blog-card { grid-template-columns: 1fr; gap: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <a href="../" class="nav__brand">
+      <span class="nav__logo" role="img" aria-label="Sognefjorden Hiking Tours"></span>
+    </a>
+    <nav class="nav__menu" id="navMenu">
+      <a href="../#tours">Tours</a>
+      <a href="../#about">About</a>
+      <a href="../#faq">FAQ</a>
+      <a href="./">Blog</a>
+      <a href="../#book" class="btn btn--nav">Book Now</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="container">
+      <ol class="breadcrumb__list">
+        <li><a href="../">Home</a></li>
+        <li aria-current="page">Blog</li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- Blog index -->
+  <section class="blog-index">
+    <div class="container">
+      <div class="blog-index__header">
+        <span class="tag">Guides & Tips</span>
+        <h1 class="section-title">Sognefjord Hiking Blog</h1>
+        <p>Trail guides, practical advice and local knowledge for hiking in the Sognefjord region — written by the guides who know it best.</p>
+      </div>
+
+      <div class="blog-grid">
+
+        <a href="private-vs-group-hiking-tours-norway/" class="blog-card">
+          <img
+            src="../images/bergefjellet-card.jpg"
+            alt="Panoramic Sognefjord view — private hiking tour in Norway"
+            class="blog-card__img"
+            loading="lazy"
+            width="1064" height="599"
+          />
+          <div class="blog-card__body">
+            <p class="blog-card__date">27 May 2026</p>
+            <h2 class="blog-card__title">Private Hiking Tours vs. Group Tours in Norway — Which Should You Book?</h2>
+            <p class="blog-card__excerpt">The type of tour you book shapes the entire experience — pace, safety, flexibility and cost all change significantly. Here is what actually differs, and when private guiding is worth it.</p>
+            <span class="blog-card__read-more">Read more →</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="../" class="nav__brand">
+          <span class="footer__logo" role="img" aria-label="Sognefjorden Hiking Tours"></span>
+        </a>
+        <p>Guided hiking tours in the Sognefjord region — Norway's most spectacular fjord landscape.</p>
+        <ul class="footer__trust">
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a7 7 0 0 1 7 7c0 5.25-7 13-7 13S5 14.25 5 9a7 7 0 0 1 7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+            Based in Høyanger, Norway
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>
+            Local expert guides
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,13 22,4"/></svg>
+            post@sognefjordenhikingtours.no
+          </li>
+        </ul>
+      </div>
+      <div class="footer__links">
+        <h4>Tours</h4>
+        <ul>
+          <li><a href="../#tours">All Sognefjord Hiking Tours</a></li>
+          <li><a href="../fossestien/">Fossestien — Easy</a></li>
+          <li><a href="../bergefjellet/">Bergefjellet — Moderate</a></li>
+          <li><a href="../kraftruta/">Kraftruta — Hard</a></li>
+          <li><a href="../solrenningen/">Solrenningen — Very Hard</a></li>
+        </ul>
+      </div>
+      <div class="footer__links">
+        <h4>Info</h4>
+        <ul>
+          <li><a href="../#about">About Us</a></li>
+          <li><a href="../#faq">FAQ</a></li>
+          <li><a href="../#book">Book a Tour</a></li>
+          <li><a href="./">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h4>Contact</h4>
+        <p>Based in Høyanger, Norway</p>
+        <a href="mailto:post@sognefjordenhikingtours.no">post@sognefjordenhikingtours.no</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Sognefjorden Hiking Tours. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

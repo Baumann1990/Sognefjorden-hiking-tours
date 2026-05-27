@@ -182,7 +182,8 @@ ul { list-style: none; }
   transition: background-image .15s;
 }
 
-.nav.scrolled .nav__logo {
+.nav.scrolled .nav__logo,
+.nav--light .nav__logo {
   background-image: url('../images/logo_assets/SHTlogo_transparent.png');
 }
 

@@ -174,24 +174,30 @@ ul { list-style: none; }
 
 .nav__logo {
   display: block;
-  width: 180px;
-  height: 120px;
-  background: url('../images/logo_assets/SHTlogo.png') no-repeat left center;
+  width: 160px;
+  height: 54px;
+  background: url('../images/logo_assets/SHTlogo.png') no-repeat center center;
   background-size: contain;
+  background-color: rgba(255,255,255,.92);
+  border-radius: 6px;
+  padding: 4px 8px;
+  box-sizing: content-box;
   overflow: hidden;
-  transition: filter .3s;
+  transition: background-color .3s;
 }
 
 .nav.scrolled .nav__logo {
-  filter: invert(1);
+  background-color: transparent;
 }
 
 .footer__logo {
   display: block;
-  width: 300px;
-  height: 200px;
+  width: 220px;
+  height: 148px;
   background: url('../images/logo_assets/SHTlogo.png') no-repeat left center;
   background-size: contain;
+  background-color: rgba(255,255,255,.96);
+  border-radius: 8px;
   overflow: hidden;
   margin-bottom: 16px;
 }
@@ -1287,8 +1293,8 @@ textarea { resize: vertical; }
   .nav { padding: 0 20px; }
 
   .nav__logo {
-    width: 135px;
-    height: 90px;
+    width: 120px;
+    height: 40px;
     background-size: contain;
   }
 
@@ -1338,8 +1344,8 @@ textarea { resize: vertical; }
   .footer__inner { grid-template-columns: 1fr; gap: 24px; }
 
   .footer__logo {
-    width: 270px;
-    height: 180px;
+    width: 220px;
+    height: 148px;
     background-size: contain;
   }
 }
@@ -1363,7 +1369,7 @@ textarea { resize: vertical; }
   .book__grid { gap: 32px; }
   .modal__body h2 { font-size: 1.5rem; }
   .modal__stats { flex-direction: column; gap: 8px; }
-  .footer__logo { width: 240px; height: 160px; background-size: contain; }
+  .footer__logo { width: 200px; height: 134px; background-size: contain; }
   .faq__question { font-size: .95rem; }
 }
 

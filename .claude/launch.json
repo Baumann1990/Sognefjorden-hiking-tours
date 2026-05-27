@@ -2,8 +2,8 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "hoyanger-hiking-tours",
-      "runtimeExecutable": "/usr/local/bin/node",
+      "name": "sognefjord",
+      "runtimeExecutable": "node",
       "runtimeArgs": ["serve.js"],
       "port": 4321
     }

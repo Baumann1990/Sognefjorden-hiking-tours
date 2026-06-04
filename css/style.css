@@ -176,7 +176,7 @@ ul { list-style: none; }
   display: block;
   width: 240px;
   height: 80px;
-  background: url('../images/logo_assets/SHTlogo_white.png') no-repeat center center;
+  background: url('../images/sognefjord_adventure_tours_logo_package/06_monochrome_white.svg') no-repeat center center;
   background-size: contain;
   overflow: hidden;
   transition: background-image .15s;
@@ -184,14 +184,14 @@ ul { list-style: none; }
 
 .nav.scrolled .nav__logo,
 .nav--light .nav__logo {
-  background-image: url('../images/logo_assets/SHTlogo_transparent.png');
+  background-image: url('../images/sognefjord_adventure_tours_logo_package/01_primary_horizontal_full_colour.svg');
 }
 
 .footer__logo {
   display: block;
   width: 220px;
   height: 148px;
-  background: url('../images/logo_assets/SHTlogo_white.png') no-repeat left center;
+  background: url('../images/sognefjord_adventure_tours_logo_package/06_monochrome_white.svg') no-repeat left center;
   background-size: contain;
   overflow: hidden;
   margin-bottom: 16px;

@@ -535,6 +535,20 @@ svg.icon {
   overflow: hidden;
   box-shadow: var(--shadow);
   transition: transform .3s, box-shadow .3s, opacity .3s;
+  position: relative;
+}
+
+/* Stretched link — makes the whole card clickable via the Details anchor */
+.tour-card .btn--outline::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+/* Keep the Book button above the stretched link */
+.tour-card .btn--sm:not(.btn--outline) {
+  position: relative;
+  z-index: 1;
 }
 
 .tour-card:hover {

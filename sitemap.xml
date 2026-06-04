@@ -1,79 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.sognefjordenhikingtours.no/</loc>
+    <loc>https://www.sognefjordadventuretours.no/</loc>
     <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.sognefjordenhikingtours.no/fossestien/</loc>
+    <loc>https://www.sognefjordadventuretours.no/fossestien/</loc>
     <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.sognefjordenhikingtours.no/bergefjellet/</loc>
+    <loc>https://www.sognefjordadventuretours.no/bergefjellet/</loc>
     <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.sognefjordenhikingtours.no/kraftruta/</loc>
+    <loc>https://www.sognefjordadventuretours.no/kraftruta/</loc>
     <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.sognefjordenhikingtours.no/solrenningen/</loc>
+    <loc>https://www.sognefjordadventuretours.no/solrenningen/</loc>
     <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.sognefjordenhikingtours.no/experiences/panorama-hike-local-lunch/</loc>
+    <loc>https://www.sognefjordadventuretours.no/experiences/panorama-hike-local-lunch/</loc>
     <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.sognefjordenhikingtours.no/experiences/golden-hour-hike/</loc>
+    <loc>https://www.sognefjordadventuretours.no/experiences/golden-hour-hike/</loc>
     <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.sognefjordenhikingtours.no/experiences/waterfalls-fjord-village/</loc>
+    <loc>https://www.sognefjordadventuretours.no/experiences/waterfalls-fjord-village/</loc>
     <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.sognefjordenhikingtours.no/experiences/power-panorama-hoyanger/</loc>
+    <loc>https://www.sognefjordadventuretours.no/experiences/power-panorama-hoyanger/</loc>
     <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.sognefjordenhikingtours.no/blog/</loc>
+    <loc>https://www.sognefjordadventuretours.no/graberget/</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sognefjordadventuretours.no/blog/</loc>
     <lastmod>2026-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.sognefjordenhikingtours.no/blog/private-vs-group-hiking-tours-norway/</loc>
+    <loc>https://www.sognefjordadventuretours.no/blog/private-vs-group-hiking-tours-norway/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.sognefjordenhikingtours.no/blog/what-to-do-in-hoyanger-norway/</loc>
+    <loc>https://www.sognefjordadventuretours.no/blog/what-to-do-in-hoyanger-norway/</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.sognefjordenhikingtours.no/blog/midnight-sun-hiking-western-norway/</loc>
+    <loc>https://www.sognefjordadventuretours.no/blog/midnight-sun-hiking-western-norway/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>

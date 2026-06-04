@@ -1,4 +1,4 @@
-Sognefjorden Hiking Tours — Logo Pack (Raster)
+Sognefjord Adventure Tours — Logo Pack (Raster)
 
 Files are exported as separate PNGs, optimized for web use.
 

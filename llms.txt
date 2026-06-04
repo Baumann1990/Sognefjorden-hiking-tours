@@ -1,15 +1,15 @@
-# Sognefjorden Hiking Tours
+# Sognefjord Adventure Tours
 
 > Private Sognefjord hiking tours based in Høyanger, Norway. Four routes for all abilities — from easy waterfall walks to challenging alpine routes. Every tour is exclusively yours — your group, your guide, your pace.
 
 ## About
 
-Sognefjorden Hiking Tours operates guided day hikes in the Sognefjord region of Vestland county, Norway, based in Høyanger. The Sognefjord is Norway's longest and deepest fjord, surrounded by dramatic mountains, waterfalls and traditional Norwegian landscapes. All tours are guided by knowledgeable local guides with deep expertise in the terrain, natural history and culture of the region.
+Sognefjord Adventure Tours operates guided day hikes in the Sognefjord region of Vestland county, Norway, based in Høyanger. The Sognefjord is Norway's longest and deepest fjord, surrounded by dramatic mountains, waterfalls and traditional Norwegian landscapes. All tours are guided by knowledgeable local guides with deep expertise in the terrain, natural history and culture of the region.
 
 ## Tours
 
 ### Fossestien — The Waterfall Path (Easy)
-- Page: https://www.sognefjordenhikingtours.no/fossestien/
+- Page: https://www.sognefjordadventuretours.no/fossestien/
 - Distance: 5–13 km (flexible)
 - Elevation gain: up to 500 m
 - Duration: 0.5–3 hours
@@ -17,7 +17,7 @@ Sognefjorden Hiking Tours operates guided day hikes in the Sognefjord region of 
 - Fourteen waterfalls, seven mountain lakes, historic trade route along the Gaula River. Suitable for families and all fitness levels.
 
 ### Bergefjellet — Berg Mountain (Moderate)
-- Page: https://www.sognefjordenhikingtours.no/bergefjellet/
+- Page: https://www.sognefjordadventuretours.no/bergefjellet/
 - Distance: 7 km
 - Elevation gain: 278 m
 - Duration: 2.5–3 hours
@@ -25,7 +25,7 @@ Sognefjorden Hiking Tours operates guided day hikes in the Sognefjord region of 
 - Summit hike with panoramic views over the Sognefjord. Starts at Siplo ski centre. A half-day circuit.
 
 ### Kraftruta — The Power Route (Hard)
-- Page: https://www.sognefjordenhikingtours.no/kraftruta/
+- Page: https://www.sognefjordadventuretours.no/kraftruta/
 - Distance: 13.5 km
 - Elevation gain: 700 m
 - Duration: 4.5–5 hours
@@ -33,7 +33,7 @@ Sognefjorden Hiking Tours operates guided day hikes in the Sognefjord region of 
 - Full-day ridge crossing of the Berge mountains. Magnificent Sognefjord views and unique hydroelectric industrial heritage. Ridge traverse between Toppenhytta and Skålebotn.
 
 ### Solrenningen — Alpine Wilderness (Very Hard)
-- Page: https://www.sognefjordenhikingtours.no/solrenningen/
+- Page: https://www.sognefjordadventuretours.no/solrenningen/
 - Distance: 11.6 km
 - Elevation gain: 890 m
 - Duration: 4.5–5 hours
@@ -42,7 +42,7 @@ Sognefjorden Hiking Tours operates guided day hikes in the Sognefjord region of 
 
 ## Premium Experiences
 
-In addition to the four standard hiking tours, Sognefjorden Hiking Tours offers curated day experiences that pair hiking with local food, golden-hour light and Høyanger's unique industrial heritage.
+In addition to the four standard hiking tours, Sognefjord Adventure Tours offers curated day experiences that pair hiking with local food, golden-hour light and Høyanger's unique industrial heritage.
 
 ### Sognefjord Panorama Hike & Local Lunch
 - Price: From NOK 2,950 per person
@@ -70,21 +70,21 @@ In addition to the four standard hiking tours, Sognefjorden Hiking Tours offers 
 
 ## Blog
 
-- Blog index: https://www.sognefjordenhikingtours.no/blog/
+- Blog index: https://www.sognefjordadventuretours.no/blog/
 
 ### Private vs Group Hiking Tours Norway — Which Is Right for You?
-- URL: https://www.sognefjordenhikingtours.no/blog/private-vs-group-hiking-tours-norway/
+- URL: https://www.sognefjordadventuretours.no/blog/private-vs-group-hiking-tours-norway/
 - Compares private and group guided hiking experiences in Norway, covering pace, privacy, cost and value. Relevant for travellers deciding how to book a guided hike in the Sognefjord.
 
 ## Practical Information
 
-- Website: https://www.sognefjordenhikingtours.no/
-- Book a tour: https://www.sognefjordenhikingtours.no/#book
+- Website: https://www.sognefjordadventuretours.no/
+- Book a tour: https://www.sognefjordadventuretours.no/#book
 - Instagram: https://www.instagram.com/sognefjordadventures (@Sognefjordadventures)
 - Location: Høyanger, Sognefjord, Vestland county, Norway
 - Season: Late May to September
 - Getting there: Approximately 3 hours from Bergen by road and ferry via the E16 and fjord ferry crossings
-- Contact: post@sognefjordenhikingtours.no
+- Contact: post@sognefjordadventuretours.no
 - All tours include a qualified local guide, route planning and safety equipment
 - All tours are fully private — exclusively for your group, never shared with strangers
 - Free cancellation up to 48 hours before the tour

@@ -26,4 +26,4 @@ Allow: /
 User-agent: Bytespider
 Allow: /
 
-Sitemap: https://www.sognefjordenhikingtours.no/sitemap.xml
+Sitemap: https://www.sognefjordadventuretours.no/sitemap.xml

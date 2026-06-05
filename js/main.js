@@ -97,6 +97,17 @@ menu.querySelectorAll('a').forEach(a => {
   });
 });
 
+/* ── Tour cards — whole card clickable ──────────────────────── */
+document.querySelectorAll('.tour-card').forEach(card => {
+  const detailsLink = card.querySelector('.btn--outline');
+  if (!detailsLink) return;
+  card.addEventListener('click', e => {
+    if (!e.target.closest('a') && !e.target.closest('button')) {
+      window.location.href = detailsLink.href;
+    }
+  });
+});
+
 /* ── Tour filters ────────────────────────────────────────────── */
 const filters   = document.querySelectorAll('.filter');
 const tourCards = document.querySelectorAll('.tour-card');

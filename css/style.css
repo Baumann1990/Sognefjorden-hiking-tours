@@ -538,20 +538,8 @@ svg.icon {
   position: relative;
 }
 
-/* Stretched link — makes the whole card clickable via the Details anchor */
-.tour-card .btn--outline::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-}
-
-/* Keep the Book button and inline book link above the stretched link */
-.tour-card .btn--sm:not(.btn--outline),
-.tour-card__price a {
-  position: relative;
-  z-index: 2;
-}
+/* Tour cards are made fully clickable via JS */
+.tour-card { cursor: pointer; }
 
 .tour-card:hover {
   transform: translateY(-6px);

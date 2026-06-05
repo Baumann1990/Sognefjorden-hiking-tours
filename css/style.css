@@ -543,12 +543,14 @@ svg.icon {
   content: '';
   position: absolute;
   inset: 0;
+  z-index: 1;
 }
 
-/* Keep the Book button above the stretched link */
-.tour-card .btn--sm:not(.btn--outline) {
+/* Keep the Book button and inline book link above the stretched link */
+.tour-card .btn--sm:not(.btn--outline),
+.tour-card__price a {
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 .tour-card:hover {

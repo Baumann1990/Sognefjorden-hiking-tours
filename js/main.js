@@ -38,16 +38,34 @@
 
 /* ── Gallery rotation ────────────────────────────────────────── */
 const GALLERY_POOL = [
-  { src: 'images/fossestien-2.jpg',    alt: 'Waterfall trail through Norwegian forest' },
-  { src: 'images/fossestien-3.jpg',    alt: 'Hikers on Fossestien waterfall path' },
-  { src: 'images/bergefjellet-2.jpg',  alt: 'Mountain ridge above Høyanger fjord' },
-  { src: 'images/bergefjellet-3.jpg',  alt: 'Panoramic Sognefjord views from Bergefjellet' },
-  { src: 'images/kraftruta-2.jpg',     alt: 'The Power Route across Berge mountains' },
-  { src: 'images/kraftruta-3.jpg',     alt: 'Høyangerfjord from Kraftruta summit' },
-  { src: 'images/solrenningen-2.jpg',  alt: 'Alpine terrain in Stølsheimen' },
-  { src: 'images/gallery-1.jpg',       alt: 'Fjord views from Norwegian trail' },
-  { src: 'images/gallery-2.jpg',       alt: 'Rocky trail with fjord in the distance' },
-  { src: 'images/gallery-3.jpg',       alt: 'Mountain lake in Vestland county' },
+  { src: 'images/fossestien-2.jpg',
+    srcset: 'images/fossestien-2-480w.jpg 480w, images/fossestien-2-768w.jpg 768w, images/fossestien-2.jpg 1200w',
+    alt: 'Waterfall trail through Norwegian forest' },
+  { src: 'images/fossestien-3.jpg',
+    srcset: 'images/fossestien-3-480w.jpg 480w, images/fossestien-3-768w.jpg 768w, images/fossestien-3.jpg 1064w',
+    alt: 'Hikers on Fossestien waterfall path' },
+  { src: 'images/bergefjellet-2.jpg',
+    srcset: 'images/bergefjellet-2-480w.jpg 480w, images/bergefjellet-2-768w.jpg 768w, images/bergefjellet-2.jpg 1600w',
+    alt: 'Mountain ridge above Høyanger fjord' },
+  { src: 'images/bergefjellet-3.jpg',
+    srcset: 'images/bergefjellet-3-480w.jpg 480w, images/bergefjellet-3-768w.jpg 768w, images/bergefjellet-3.jpg 1600w',
+    alt: 'Panoramic Sognefjord views from Bergefjellet' },
+  { src: 'images/kraftruta-2.jpg',
+    srcset: 'images/kraftruta-2-480w.jpg 480w, images/kraftruta-2-768w.jpg 768w, images/kraftruta-2.jpg 1066w',
+    alt: 'The Power Route across Berge mountains' },
+  { src: 'images/kraftruta-3.jpg',
+    srcset: 'images/kraftruta-3-480w.jpg 480w, images/kraftruta-3-768w.jpg 768w, images/kraftruta-3.jpg 1600w',
+    alt: 'Høyangerfjord from Kraftruta summit' },
+  { src: 'images/solrenningen-2.jpg',
+    srcset: 'images/solrenningen-2-480w.jpg 480w, images/solrenningen-2-768w.jpg 768w, images/solrenningen-2.jpg 1200w',
+    alt: 'Alpine terrain in Stølsheimen' },
+  { src: 'images/gallery-1.jpg',   alt: 'Fjord views from Norwegian trail' },
+  { src: 'images/gallery-2.jpg',
+    srcset: 'images/gallery-2-480w.jpg 480w, images/gallery-2-768w.jpg 768w, images/gallery-2.jpg 1536w',
+    alt: 'Rocky trail with fjord in the distance' },
+  { src: 'images/gallery-3.jpg',
+    srcset: 'images/gallery-3-480w.jpg 480w, images/gallery-3-768w.jpg 768w, images/gallery-3.jpg 1536w',
+    alt: 'Mountain lake in Vestland county' },
 ];
 
 const GALLERY_COUNT = 8;
@@ -62,9 +80,15 @@ const GALLERY_COUNT = 8;
     [pool[i], pool[j]] = [pool[j], pool[i]];
   }
 
-  pool.slice(0, GALLERY_COUNT).forEach(({ src, alt }) => {
+  // On touch devices show fewer images so the carousel scrolls nicely
+  const isTouch = !window.matchMedia('(hover: hover)').matches;
+  const count   = isTouch ? 6 : GALLERY_COUNT;
+
+  pool.slice(0, count).forEach(({ src, srcset, alt }) => {
     const img = document.createElement('img');
     img.src     = src;
+    if (srcset) img.srcset = srcset;
+    img.sizes   = '(max-width: 768px) 80vw, 20vw';
     img.alt     = alt;
     img.loading = 'lazy';
     track.appendChild(img);

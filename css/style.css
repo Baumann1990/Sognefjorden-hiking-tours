@@ -257,6 +257,7 @@ svg.icon {
 .hero {
   position: relative;
   height: 100vh;
+  height: 100dvh; /* prevents iOS toolbar clipping CTAs */
   min-height: 640px;
   display: flex;
   align-items: center;
@@ -715,7 +716,34 @@ svg.icon {
   min-width: 0;
 }
 
-.gallery__track img:hover { flex: 2.5; }
+/* Desktop hover-expand — only on devices that support hover */
+@media (hover: hover) {
+  .gallery__track img:hover { flex: 2.5; }
+}
+
+/* Mobile: swipeable scroll-snap carousel */
+@media (hover: none) {
+  .gallery {
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    height: 240px;
+  }
+  .gallery::-webkit-scrollbar { display: none; }
+  .gallery__track {
+    width: max-content;
+    gap: 8px;
+    padding: 0 16px;
+  }
+  .gallery__track img {
+    flex: 0 0 78vw;
+    height: 240px;
+    border-radius: var(--radius-sm);
+    scroll-snap-align: start;
+  }
+}
 
 /* ── Booking ─────────────────────────────────────────────────── */
 .book { background: var(--white); }
@@ -1317,7 +1345,7 @@ textarea { resize: vertical; }
 }
 
 @media (max-width: 768px) {
-  :root { --nav-h: 90px; }
+  :root { --nav-h: 70px; }
 
   .nav { padding: 0 20px; }
 
@@ -1396,10 +1424,14 @@ textarea { resize: vertical; }
   .tour-card__actions .btn { flex: 1; justify-content: center; }
   .about__img--main { height: 280px; }
   .book__grid { gap: 32px; }
+  .book__form { padding: 24px 20px; }
   .modal__body h2 { font-size: 1.5rem; }
   .modal__stats { flex-direction: column; gap: 8px; }
   .footer__logo { width: 200px; height: 134px; background-size: contain; }
   .faq__question { font-size: .95rem; }
+
+  /* Prevent iOS Safari zoom on form focus */
+  input, select, textarea { font-size: 16px; }
 }
 
 @media (max-width: 600px) {
@@ -1600,4 +1632,15 @@ textarea { resize: vertical; }
 @keyframes modalUp {
   from { transform: translateY(100%); }
   to   { transform: translateY(0); }
+}
+
+/* ── Touch device: disable hover transforms ──────────────────── */
+/* Prevents "sticky hover" states on iOS/Android after a tap      */
+@media (hover: none) {
+  .btn:hover { transform: none; }
+  .tour-card:hover { transform: none; box-shadow: var(--shadow); }
+  .tour-card:hover .tour-card__img { transform: none; }
+  .exp-card:hover { transform: none; box-shadow: var(--shadow); }
+  .exp-card:hover .exp-card__img { transform: none; }
+  .gallery__track img:hover { flex: 1; }
 }

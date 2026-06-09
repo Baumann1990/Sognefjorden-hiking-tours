@@ -227,9 +227,15 @@
     <div class="hero__bg">
       <img
         src="images/barnabas-davoti-xN5LexSJPs0-unsplash.jpg"
+        srcset="images/barnabas-davoti-xN5LexSJPs0-unsplash-480w.jpg 480w,
+                images/barnabas-davoti-xN5LexSJPs0-unsplash-768w.jpg 768w,
+                images/barnabas-davoti-xN5LexSJPs0-unsplash-1200w.jpg 1200w,
+                images/barnabas-davoti-xN5LexSJPs0-unsplash.jpg 2400w"
+        sizes="100vw"
         alt="Elevated view down the Sognefjord — turquoise water flanked by green slopes and snow-capped peaks"
         class="hero__img"
         width="933" height="1400"
+        fetchpriority="high"
       />
       <div class="hero__overlay"></div>
     </div>
@@ -277,6 +283,8 @@
           <div class="tour-card__img-wrap">
             <img
               src="images/fossestien-card.jpg"
+              srcset="images/fossestien-card-480w.jpg 480w, images/fossestien-card-768w.jpg 768w, images/fossestien-card.jpg 899w"
+              sizes="(max-width: 768px) 100vw, 50vw"
               alt="Fossestien waterfall path — private Sognefjord hiking tour"
               class="tour-card__img"
               loading="lazy"
@@ -310,6 +318,8 @@
           <div class="tour-card__img-wrap">
             <img
               src="images/bergefjellet-card.jpg"
+              srcset="images/bergefjellet-card-480w.jpg 480w, images/bergefjellet-card-768w.jpg 768w, images/bergefjellet-card.jpg 1064w"
+              sizes="(max-width: 768px) 100vw, 50vw"
               alt="Bergefjellet summit hike — Sognefjord hiking tour"
               class="tour-card__img"
               loading="lazy"
@@ -343,6 +353,8 @@
           <div class="tour-card__img-wrap">
             <img
               src="images/kraftruta-card.jpg"
+              srcset="images/kraftruta-card-480w.jpg 480w, images/kraftruta-card-768w.jpg 768w, images/kraftruta-card.jpg 1066w"
+              sizes="(max-width: 768px) 100vw, 50vw"
               alt="The Power Route ridge over the Berge Mountains above the Sognefjord"
               class="tour-card__img"
               loading="lazy"
@@ -376,6 +388,8 @@
           <div class="tour-card__img-wrap">
             <img
               src="images/solrenningen-2.jpg"
+              srcset="images/solrenningen-2-480w.jpg 480w, images/solrenningen-2-768w.jpg 768w, images/solrenningen-2.jpg 1200w"
+              sizes="(max-width: 768px) 100vw, 50vw"
               alt="Gråberget — the grey cliff above Høyanger on the Sognefjord"
               class="tour-card__img"
               loading="lazy"
@@ -409,6 +423,8 @@
           <div class="tour-card__img-wrap">
             <img
               src="images/solrenningen-card.jpg"
+              srcset="images/solrenningen-card-480w.jpg 480w, images/solrenningen-card-768w.jpg 768w, images/solrenningen-card.jpg 1600w"
+              sizes="(max-width: 768px) 100vw, 50vw"
               alt="Solrenningen alpine hike — Sognefjord hiking tour in Stølsheimen"
               class="tour-card__img"
               loading="lazy"
@@ -588,10 +604,22 @@
       <div class="about__grid">
         <div class="about__images">
           <div class="about__slideshow">
-            <img src="images/leon-lonsetteig-tetpF4qxPG8-unsplash.jpg" alt="Moody Sognefjord landscape — mountains rising steeply from calm fjord water" loading="lazy" />
-            <img src="images/bergefjellet-2.jpg" alt="Open mountain terrain above the Sognefjord on the Bergefjellet route" loading="lazy" />
-            <img src="images/fossestien-3.jpg" alt="Hikers on Fossestien waterfall trail through the Sognefjord valley" loading="lazy" />
-            <img src="images/kraftruta-card.jpg" alt="Ridge trail on Kraftruta — The Power Route above the Sognefjord" loading="lazy" />
+            <img src="images/leon-lonsetteig-tetpF4qxPG8-unsplash.jpg"
+                 srcset="images/leon-lonsetteig-tetpF4qxPG8-unsplash-480w.jpg 480w, images/leon-lonsetteig-tetpF4qxPG8-unsplash-768w.jpg 768w, images/leon-lonsetteig-tetpF4qxPG8-unsplash.jpg 1920w"
+                 sizes="(max-width: 1024px) 100vw, 50vw"
+                 alt="Moody Sognefjord landscape — mountains rising steeply from calm fjord water" loading="lazy" />
+            <img src="images/bergefjellet-2.jpg"
+                 srcset="images/bergefjellet-2-480w.jpg 480w, images/bergefjellet-2-768w.jpg 768w, images/bergefjellet-2.jpg 1600w"
+                 sizes="(max-width: 1024px) 100vw, 50vw"
+                 alt="Open mountain terrain above the Sognefjord on the Bergefjellet route" loading="lazy" />
+            <img src="images/fossestien-3.jpg"
+                 srcset="images/fossestien-3-480w.jpg 480w, images/fossestien-3-768w.jpg 768w, images/fossestien-3.jpg 1064w"
+                 sizes="(max-width: 1024px) 100vw, 50vw"
+                 alt="Hikers on Fossestien waterfall trail through the Sognefjord valley" loading="lazy" />
+            <img src="images/kraftruta-card.jpg"
+                 srcset="images/kraftruta-card-480w.jpg 480w, images/kraftruta-card-768w.jpg 768w, images/kraftruta-card.jpg 1066w"
+                 sizes="(max-width: 1024px) 100vw, 50vw"
+                 alt="Ridge trail on Kraftruta — The Power Route above the Sognefjord" loading="lazy" />
           </div>
           <div class="about__badge">
             <span class="about__badge-num">Now open</span>
@@ -742,9 +770,9 @@
     <div class="modal__panel">
       <button class="modal__close" aria-label="Close">&times;</button>
       <div class="modal__hero modal__hero--slideshow">
-        <img src="images/fossestien-card.jpg" alt="Fossestien waterfall path, Sognefjorden" />
-        <img src="images/fossestien-2.jpg" alt="Waterfall and forest on Fossestien trail" />
-        <img src="images/fossestien-3.jpg" alt="Mountain lake along Fossestien route" />
+        <img src="images/fossestien-card.jpg" alt="Fossestien waterfall path, Sognefjorden" loading="lazy" />
+        <img src="images/fossestien-2.jpg" alt="Waterfall and forest on Fossestien trail" loading="lazy" />
+        <img src="images/fossestien-3.jpg" alt="Mountain lake along Fossestien route" loading="lazy" />
         <div class="modal__hero-badges">
           <span class="tour-card__badge tour-card__badge--fjord">Fjord Walk</span>
           <span class="difficulty difficulty--easy">Easy</span>
@@ -795,9 +823,9 @@
     <div class="modal__panel">
       <button class="modal__close" aria-label="Close">&times;</button>
       <div class="modal__hero modal__hero--slideshow">
-        <img src="images/bergefjellet-card.jpg" alt="Bergefjellet summit above the Sognefjord" />
-        <img src="images/bergefjellet-2.jpg" alt="Ridge trail on Bergefjellet" />
-        <img src="images/bergefjellet-3.jpg" alt="Sognefjord panorama from Bergefjellet" />
+        <img src="images/bergefjellet-card.jpg" alt="Bergefjellet summit above the Sognefjord" loading="lazy" />
+        <img src="images/bergefjellet-2.jpg" alt="Ridge trail on Bergefjellet" loading="lazy" />
+        <img src="images/bergefjellet-3.jpg" alt="Sognefjord panorama from Bergefjellet" loading="lazy" />
         <div class="modal__hero-badges">
           <span class="tour-card__badge tour-card__badge--mountain">Mountain</span>
           <span class="difficulty difficulty--medium">Moderate</span>
@@ -848,9 +876,9 @@
     <div class="modal__panel">
       <button class="modal__close" aria-label="Close">&times;</button>
       <div class="modal__hero modal__hero--slideshow">
-        <img src="images/kraftruta-card.jpg" alt="The Power Route ridge over Berge mountains, Sognefjorden" />
-        <img src="images/kraftruta-2.jpg" alt="Dam constructions on the Kraftruta route" />
-        <img src="images/kraftruta-3.jpg" alt="Sognefjord views from Kraftruta summit" />
+        <img src="images/kraftruta-card.jpg" alt="The Power Route ridge over Berge mountains, Sognefjorden" loading="lazy" />
+        <img src="images/kraftruta-2.jpg" alt="Dam constructions on the Kraftruta route" loading="lazy" />
+        <img src="images/kraftruta-3.jpg" alt="Sognefjord views from Kraftruta summit" loading="lazy" />
         <div class="modal__hero-badges">
           <span class="tour-card__badge tour-card__badge--mountain">Mountain</span>
           <span class="difficulty difficulty--hard">Hard</span>
@@ -901,9 +929,9 @@
     <div class="modal__panel">
       <button class="modal__close" aria-label="Close">&times;</button>
       <div class="modal__hero modal__hero--slideshow">
-        <img src="images/solrenningen-card.jpg" alt="Alpine wilderness at Solrenningen, Stølsheimen" />
-        <img src="images/solrenningen-2.jpg" alt="High terrain at Solrenningen alpine plateau" />
-        <img src="images/solrenningen-3.jpg" alt="Mountain panorama from Solrenningen, Vestland" />
+        <img src="images/solrenningen-card.jpg" alt="Alpine wilderness at Solrenningen, Stølsheimen" loading="lazy" />
+        <img src="images/solrenningen-2.jpg" alt="High terrain at Solrenningen alpine plateau" loading="lazy" />
+        <img src="images/solrenningen-3.jpg" alt="Mountain panorama from Solrenningen, Vestland" loading="lazy" />
         <div class="modal__hero-badges">
           <span class="tour-card__badge tour-card__badge--alpine">Alpine</span>
           <span class="difficulty difficulty--very-hard">Very Hard</span>

@@ -42,7 +42,7 @@
     "@graph": [
       {
         "@type": "TourOperator",
-        "@id": "https://www.sognefjordadventuretours.no",
+        "@id": "https://www.sognefjordadventuretours.no/#operator",
         "name": "Sognefjord Adventure Tours",
         "url": "https://www.sognefjordadventuretours.no",
         "image": "https://www.sognefjordadventuretours.no/images/barnabas-davoti-xN5LexSJPs0-unsplash.jpg",
@@ -59,48 +59,63 @@
       },
       {
         "@type": "TouristTrip",
+        "@id": "https://www.sognefjordadventuretours.no/fossestien/#tour",
         "name": "Fossestien — The Waterfall Path",
         "url": "https://www.sognefjordadventuretours.no/fossestien/",
         "description": "A guided hike along the Gaula River past fourteen waterfalls and seven mountain lakes. Flexible length — 5, 8 or 13 km. Easy, suitable for all abilities. NOK 600 per person.",
         "touristType": "Hikers",
+        "duration": "PT3H",
         "location": { "@type": "Place", "name": "Høyanger, Sognefjord", "geo": { "@type": "GeoCoordinates", "latitude": 61.2228, "longitude": 6.0742 } },
-        "offers": { "@type": "Offer", "price": "600", "priceCurrency": "NOK" }
+        "offers": { "@type": "Offer", "price": "600", "priceCurrency": "NOK" },
+        "provider": { "@type": "TourOperator", "@id": "https://www.sognefjordadventuretours.no/#operator" }
       },
       {
         "@type": "TouristTrip",
+        "@id": "https://www.sognefjordadventuretours.no/bergefjellet/#tour",
         "name": "Bergefjellet — Berg Mountain",
         "url": "https://www.sognefjordadventuretours.no/bergefjellet/",
         "description": "A guided summit hike to Bergefjellet with panoramic views over the Sognefjord. 7 km, 278 m elevation gain, moderate difficulty. NOK 900 per person.",
         "touristType": "Hikers",
+        "duration": "PT3H",
         "location": { "@type": "Place", "name": "Høyanger, Sognefjord", "geo": { "@type": "GeoCoordinates", "latitude": 61.2228, "longitude": 6.0742 } },
-        "offers": { "@type": "Offer", "price": "900", "priceCurrency": "NOK" }
+        "offers": { "@type": "Offer", "price": "900", "priceCurrency": "NOK" },
+        "provider": { "@type": "TourOperator", "@id": "https://www.sognefjordadventuretours.no/#operator" }
       },
       {
         "@type": "TouristTrip",
+        "@id": "https://www.sognefjordadventuretours.no/kraftruta/#tour",
         "name": "Kraftruta — The Power Route",
         "url": "https://www.sognefjordadventuretours.no/kraftruta/",
         "description": "A full-day ridge crossing of the Berge mountains above the Sognefjord. 13.5 km, 700 m elevation gain, hard. Magnificent fjord views and unique industrial heritage. NOK 1 200 per person.",
         "touristType": "Hikers",
+        "duration": "PT5H",
         "location": { "@type": "Place", "name": "Høyanger, Sognefjord", "geo": { "@type": "GeoCoordinates", "latitude": 61.2228, "longitude": 6.0742 } },
-        "offers": { "@type": "Offer", "price": "1200", "priceCurrency": "NOK" }
+        "offers": { "@type": "Offer", "price": "1200", "priceCurrency": "NOK" },
+        "provider": { "@type": "TourOperator", "@id": "https://www.sognefjordadventuretours.no/#operator" }
       },
       {
         "@type": "TouristTrip",
+        "@id": "https://www.sognefjordadventuretours.no/graberget/#tour",
         "name": "Gråberget — Høyanger's Summit Climb",
         "url": "https://www.sognefjordadventuretours.no/graberget/",
         "description": "A demanding ascent of Gråberget (849 m), the grey cliff that dominates Høyanger's skyline. ~8 km return, ~800 m elevation gain, rope-assisted sections near the summit. Aerial view straight down onto the town and Høyangsfjorden. NOK 1 200 per person.",
         "touristType": "Hikers",
+        "duration": "PT5H",
         "location": { "@type": "Place", "name": "Høyanger, Sognefjord", "geo": { "@type": "GeoCoordinates", "latitude": 61.2228, "longitude": 6.0742 } },
-        "offers": { "@type": "Offer", "price": "1200", "priceCurrency": "NOK" }
+        "offers": { "@type": "Offer", "price": "1200", "priceCurrency": "NOK" },
+        "provider": { "@type": "TourOperator", "@id": "https://www.sognefjordadventuretours.no/#operator" }
       },
       {
         "@type": "TouristTrip",
+        "@id": "https://www.sognefjordadventuretours.no/solrenningen/#tour",
         "name": "Solrenningen — Alpine Wilderness",
         "url": "https://www.sognefjordadventuretours.no/solrenningen/",
         "description": "A demanding alpine hike into the heart of Stølsheimen protected landscape. 11.6 km, 890 m elevation gain. Remote high terrain, traditional mountain farming heritage. NOK 1 500 per person.",
         "touristType": "Hikers",
+        "duration": "PT5H",
         "location": { "@type": "Place", "name": "Høyanger, Sognefjord", "geo": { "@type": "GeoCoordinates", "latitude": 61.2228, "longitude": 6.0742 } },
-        "offers": { "@type": "Offer", "price": "1500", "priceCurrency": "NOK" }
+        "offers": { "@type": "Offer", "price": "1500", "priceCurrency": "NOK" },
+        "provider": { "@type": "TourOperator", "@id": "https://www.sognefjordadventuretours.no/#operator" }
       },
       {
         "@type": "FAQPage",
@@ -165,10 +180,12 @@
       },
       {
         "@type": "WebPage",
+        "@id": "https://www.sognefjordadventuretours.no/#webpage",
         "url": "https://www.sognefjordadventuretours.no/",
         "name": "Sognefjord Adventure Tours — Guided Hikes in the Sognefjord Region",
+        "description": "Private guided hiking tours in the Sognefjord region of Norway, based in Høyanger. Five routes for all abilities — from easy waterfall walks to challenging alpine climbs. Your group, your guide, your pace.",
         "datePublished": "2026-05-19",
-        "dateModified": "2026-05-24"
+        "dateModified": "2026-06-06"
       }
     ]
   }

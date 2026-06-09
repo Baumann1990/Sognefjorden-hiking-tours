@@ -39,17 +39,19 @@
     "@graph": [
       {
         "@type": "TouristTrip",
+        "@id": "https://www.sognefjordadventuretours.no/experiences/golden-hour-hike/#tour",
         "name": "Golden Hour Sognefjord Hike",
         "description": "An evening hike timed for the best light of the day — when the Sognefjord turns amber and the surrounding peaks glow. Private guided experience, short to moderate route. Ideal for couples, photographers and premium travellers.",
         "url": "https://www.sognefjordadventuretours.no/experiences/golden-hour-hike/",
         "touristType": "Couples, Photographers, Premium Travellers",
+        "duration": "PT3H",
         "location": {
           "@type": "Place",
           "name": "Høyanger, Sognefjord",
           "geo": { "@type": "GeoCoordinates", "latitude": 61.2228, "longitude": 6.0742 }
         },
         "offers": { "@type": "Offer", "price": "1950", "priceCurrency": "NOK" },
-        "provider": { "@type": "TourOperator", "name": "Sognefjord Adventure Tours" }
+        "provider": { "@type": "TourOperator", "@id": "https://www.sognefjordadventuretours.no/#operator", "name": "Sognefjord Adventure Tours" }
       },
       {
         "@type": "FAQPage",

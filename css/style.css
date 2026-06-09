@@ -1644,3 +1644,46 @@ textarea { resize: vertical; }
   .exp-card:hover .exp-card__img { transform: none; }
   .gallery__track img:hover { flex: 1; }
 }
+
+/* ── Mobile sticky "Book a Tour" bar ─────────────────────────── */
+.mobile-book-bar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-book-bar {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 16px;
+    padding-bottom: calc(10px + env(safe-area-inset-bottom, 0px));
+    background: rgba(247, 244, 239, 0.96);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 -1px 0 var(--border), 0 -6px 20px rgba(0, 0, 0, .09);
+    z-index: 90;
+    transform: translateY(110%);
+    transition: transform .3s cubic-bezier(.4, 0, .2, 1);
+    will-change: transform;
+  }
+
+  .mobile-book-bar.is-visible {
+    transform: translateY(0);
+  }
+
+  .mobile-book-bar .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 14px 24px;
+    font-size: 1rem;
+    border-radius: var(--radius);
+  }
+
+  /* Extra bottom space so the bar never obscures page content */
+  body.has-book-bar {
+    padding-bottom: 80px;
+  }
+}

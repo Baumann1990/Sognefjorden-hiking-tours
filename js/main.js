@@ -307,3 +307,54 @@ if (form) {
     }
   });
 }
+
+/* ── Mobile sticky "Book a Tour" bar ────────────────────────────
+   Slides up from the bottom once the hero scrolls out of view.
+   Hides again when the booking form is visible (homepage only).
+   On sub-pages (no #book section) it stays visible until the user
+   navigates to the booking form on the homepage.
+   ──────────────────────────────────────────────────────────────── */
+(function initMobileBookBar() {
+  /* Only run on touch/mobile — matchMedia keeps desktop untouched */
+  if (!window.matchMedia('(max-width: 768px)').matches) return;
+  if (typeof IntersectionObserver === 'undefined') return;
+
+  /* Resolve the booking link: same-page anchor or root homepage */
+  var bookTarget = document.getElementById('book') ? '#book' : '/#book';
+
+  /* Inject the bar */
+  var bar = document.createElement('div');
+  bar.className = 'mobile-book-bar';
+  bar.innerHTML = '<a href="' + bookTarget + '" class="btn btn--primary">Book a Tour</a>';
+  document.body.appendChild(bar);
+  document.body.classList.add('has-book-bar');
+
+  var heroPassed  = false;
+  var bookVisible = false;
+
+  function refresh() {
+    bar.classList.toggle('is-visible', heroPassed && !bookVisible);
+  }
+
+  /* Watch the hero: show bar once it scrolls out of view */
+  var heroEl = document.querySelector('.hero') || document.querySelector('.article__hero');
+  if (heroEl) {
+    new IntersectionObserver(function(entries) {
+      heroPassed = !entries[0].isIntersecting;
+      refresh();
+    }, { threshold: 0 }).observe(heroEl);
+  } else {
+    /* Fallback: no hero found → show bar immediately */
+    heroPassed = true;
+    refresh();
+  }
+
+  /* Watch the booking form (homepage only): hide bar when in view */
+  var bookEl = document.getElementById('book');
+  if (bookEl) {
+    new IntersectionObserver(function(entries) {
+      bookVisible = entries[0].isIntersecting;
+      refresh();
+    }, { threshold: 0.15 }).observe(bookEl);
+  }
+}());

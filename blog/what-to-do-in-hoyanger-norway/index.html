@@ -155,9 +155,6 @@
 
     .article__hero { position: relative; height: 420px; overflow: hidden; }
     .article__hero img { width: 100%; height: 100%; object-fit: cover; display: block; }
-    .article__hero-back { position: absolute; top: calc(var(--nav-h) + 12px); left: 0; right: 0; }
-    .article__hero-back a { display: inline-flex; align-items: center; gap: 8px; background: rgba(0,0,0,.45); color: white; text-decoration: none; padding: 8px 16px; border-radius: 100px; font-size: .85rem; backdrop-filter: blur(4px); transition: background .2s; }
-    .article__hero-back a:hover { background: rgba(0,0,0,.65); }
 
     @media (max-width: 768px) {
       .article__hero { height: 280px; }
@@ -193,13 +190,11 @@
     <img src="../../images/leon-lonsetteig-tetpF4qxPG8-unsplash.jpg"
          srcset="../../images/leon-lonsetteig-tetpF4qxPG8-unsplash-480w.jpg 480w, ../../images/leon-lonsetteig-tetpF4qxPG8-unsplash-768w.jpg 768w, ../../images/leon-lonsetteig-tetpF4qxPG8-unsplash-1200w.jpg 1200w, ../../images/leon-lonsetteig-tetpF4qxPG8-unsplash.jpg 1920w"
          sizes="100vw"
-         alt="Høyanger on the Sognefjord, Norway — fjord and mountains" width="1920" height="1080" fetchpriority="high" />
-    <div class="article__hero-back">
-      <div class="container">
-        <a href="../">← Journal</a>
-      </div>
-    </div>
+         alt="Høyanger on the Sognefjord, Norway — fjord and mountains" width="1920" height="1080" fetchpriority="high" />    </div>
   </div>
+
+  <!-- Back link -->
+  <div class="blog-back container"><a href="../">← Journal</a></div>
 
   <!-- Breadcrumb -->
   <nav class="breadcrumb" aria-label="Breadcrumb">
